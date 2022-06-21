@@ -20,8 +20,8 @@ body {
 }
 
 a {
-	text-decoration: line-through;
-	color: #505050;
+	text-decoration: none;
+	color: #003cff;
 }
 
 .post_title {
