@@ -45,6 +45,14 @@
             display: flex;
         }
 
+        .flex-motherbox {
+            max-width: 50%;   
+            max-height: 50%;
+            padding: 2px;
+            border: 2px solid black;
+            display: flex;
+        }
+
 /*Items for the basic examples*/
 
         .item {
@@ -221,5 +229,57 @@
         <div class="item-cbox3">Yellow</div>
         <div class="item-cbox4">Green</div>
         <div class="item-cbox5">Purple</div>
+    </section>
+
+    <h4>Attempt at...something</h4>
+    <section class="flex-motherbox wrap">
+        <section class="flex-cbox wrap">
+            <div class="item-cbox1">Red</div>
+            <div class="item-cbox2">Blue</div>
+            <div class="item-cbox3">Yellow</div>
+            <div class="item-cbox4">Green</div>
+            <div class="item-cbox5">Purple</div>
+        </section>
+    
+        <section class="flex-cbox wrap justify-flex-end">
+            <div class="item-cbox1">Red</div>
+            <div class="item-cbox2">Blue</div>
+            <div class="item-cbox3">Yellow</div>
+            <div class="item-cbox4">Green</div>
+            <div class="item-cbox5">Purple</div>
+        </section>
+    
+        <section class="flex-cbox wrap justify-space-around">
+            <div class="item-cbox1">Red</div>
+            <div class="item-cbox2">Blue</div>
+            <div class="item-cbox3">Yellow</div>
+            <div class="item-cbox4">Green</div>
+            <div class="item-cbox5">Purple</div>
+        </section>
+    
+        <section class="flex-cbox wrap-reverse">
+            <div class="item-cbox1">Red</div>
+            <div class="item-cbox2">Blue</div>
+            <div class="item-cbox3">Yellow</div>
+            <div class="item-cbox4">Green</div>
+            <div class="item-cbox5">Purple</div>
+        </section>
+    
+        <section class="flex-cbox wrap-reverse justify-flex-end">
+            <div class="item-cbox1">Red</div>
+            <div class="item-cbox2">Blue</div>
+            <div class="item-cbox3">Yellow</div>
+            <div class="item-cbox4">Green</div>
+            <div class="item-cbox5">Purple</div>
+        </section>
+    
+        <section class="flex-cbox wrap-reverse justify-space-around">
+            <div class="item-cbox1">Red</div>
+            <div class="item-cbox2">Blue</div>
+            <div class="item-cbox3">Yellow</div>
+            <div class="item-cbox4">Green</div>
+            <div class="item-cbox5">Purple</div>
+        </section>
+    </section>
 </body>
 </html>
