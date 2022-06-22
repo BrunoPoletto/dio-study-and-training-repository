@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+}
+
+.item-red {
+    background-color: red;
+}
+
+.item-blue {
+    background-color: blue;
+}
+
+.item-green {
+    background-color: green;
+}
+
+.item-yellow {
+    background-color: yellow;
+}
+
+.item-purple {
+    background-color: purple;
+}
+
+.item-cyan {
+    background-color: cyan;
+}
+
+.item-magenta {
+    background-color: magenta;
+}
+
+.item-darkgreen {
+    background-color: darkgreen;
+}
+
+.item-orange {
+    background-color: orange;
+}
